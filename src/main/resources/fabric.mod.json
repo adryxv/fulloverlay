@@ -3,15 +3,15 @@
 	"id": "fulloverlay",
 	"version": "${version}",
 	"name": "FullOverlay",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Edit, move or hide every overlay in Minecraft.",
 	"authors": [
-		"Me!"
+		"adryxv"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/adryxv/fulloverlay",
+		"sources": "https://github.com/adryxv/fulloverlay"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/fulloverlay/icon.png",
 	"environment": "*",
 	"entrypoints": {
