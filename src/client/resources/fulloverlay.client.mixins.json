@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.adryxv.fulloverlay.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ScreenEffectRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
