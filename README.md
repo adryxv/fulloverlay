@@ -23,7 +23,7 @@ Screen effects · Fog · First-person items · Vanilla HUD · Custom HUD modules
 FullOverlay is a **client-side Fabric mod** that puts every on-screen overlay under your control. Hide the fire, lower your shield, strip the lava fog, rearrange the HUD, add FPS / CPS / ping counters, all from one settings screen, with no resource pack edits and no paid client.
 
 > [!NOTE]
-> The mod is in **early development**. Only the fire overlay is implemented so far. Everything marked 🛠️ is planned.
+> **Work in progress:** This repository currently contains **source code only** — there is no compiled `.jar` release available yet, and the mod may not be usable or fully playable in its current state. Only the fire overlay is implemented so far; everything marked 🛠️ is planned.
 
 ---
 
@@ -60,8 +60,10 @@ FullOverlay is **client-only**: it does not need to be installed on the server.
 
 ## 🚀 Installation
 
+> Pre-built `.jar` files are not available yet. To test the current state, follow the [Building from source](#-building-from-source) instructions below.
+
 1. Install **Fabric Loader** for Minecraft 26.2.
-2. Drop `fulloverlay-<version>.jar` and **Fabric API** into your `mods` folder.
+2. Drop the compiled `fulloverlay-<version>.jar` and **Fabric API** into your `mods` folder.
 3. Launch the game. The config file is created automatically.
 
 ---
@@ -100,7 +102,7 @@ Settings live in `.minecraft/config/fulloverlay.json`:
 ## 🔨 Building from source
 
 ```bash
-git clone https://github.com/<your-username>/fulloverlay.git
+git clone [https://github.com/adryxv/fulloverlay.git](https://github.com/adryxv/fulloverlay.git)
 cd fulloverlay
 ./gradlew build
 ```
